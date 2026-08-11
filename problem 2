@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+	int a,b;
+	printf("ek number daalo:  ");
+	scanf("%d" ,&a);
+	printf("ek aur number daalo:  ");
+	scanf("%d" ,&b);
+	printf("in case of addition the result will be: %d\n" ,a+b);
+	printf("in case of multiplication the result will be: %d\n" ,a*b);
+	printf("in case of subtraction the result will be: %d\n" ,a-b);
+	if (b==0){
+		printf("the division is not possible");
+	}
+	else {
+		printf("in case of division the result will be: %d" ,a/b);
+	}
+	return 0 ;
+}	
