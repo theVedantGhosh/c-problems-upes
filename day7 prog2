@@ -1,21 +1,16 @@
-//Q13: Write a program to input a year and check whether it is a leap year or not using conditional statements.
+//Q14: Write a program to input a character and check whether it is a vowel or consonant using if–else.
 
 /*
 Sample Test Cases:
 Input 1:
-2020
+a
 Output 1:
-Leap year
+Vowel
 
 Input 2:
-1900
+b
 Output 2:
-Not a leap year
-
-Input 3:
-2000
-Output 3:
-Leap year
+Consonant
 
 */
 
