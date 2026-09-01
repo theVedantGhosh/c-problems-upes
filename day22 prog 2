@@ -21,7 +21,7 @@ int main() {
 	float sum=0;
     printf("enter the number till u want the summation: ");
 	scanf("%d",&n);
-	while (a<=n+2) {
+	while (a<=n*2) {
 		sum=sum+(a/b);
 		a=a+2;
 		b=2*n;
