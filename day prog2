@@ -1,0 +1,36 @@
+//Q60: Count positive, negative, and zero elements in an array.
+
+/*
+Sample Test Cases:
+Input 1:
+5
+-1 0 1 2 -2
+Output 1:
+Positive=2, Negative=2, Zero=1
+
+*/
+#include<stdio.h>
+int main() {
+	int x,j=0,n=0,k=0;
+	scanf("%d",&x);
+	int i,a[x];
+	for (i=0;i<x;i++) {
+	printf("enter element %d: ",i+1);
+	scanf("%d",&a[i]);
+	}
+	for (i=0;i<x;i++) {
+		if (a[i]>0) {
+			n++;
+		}
+		else if (a[i]<0){
+			j++;
+		}
+		else {
+			k++;
+		}
+	}
+	printf("positive=%d negative=%d zero=%d ",n,j,k);
+	return 0;
+}
+	
+	
