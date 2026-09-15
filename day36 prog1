@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main() {
+    int i,j,n,w;
+	printf("enter the number of rows: ");
+	scanf("%d",&n);
+	printf("enter the number of coloumn: ");
+	scanf("%d",&w);
+	int arr[n][w];
+    for (i=0;i<n;i++) {
+        for (j=0;j<w;j++) {
+			printf("enter the value for %d row and %d coloumn: ",i+1,j+1);
+			scanf("%d",&arr[i][j]);
+        }
+        printf("\n");
+    }
+	  for (i=0;i<n;i++) {
+        for (j=0;j<w;j++) {
+			printf("%d ",arr[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
