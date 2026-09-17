@@ -1,0 +1,118 @@
+//Q74: Find the transpose of a matrix.
+
+/*
+Sample Test Cases:
+Input 1:
+2 3
+1 2 3
+4 5 6
+Output 1:
+1 4
+2 5
+3 6
+
+*/
+#include<stdio.h>
+int main() {
+    int n,w,sum=0,sum2=0,l,q;
+	printf("enter the number of rows: ");
+	scanf("%d",&n);
+	printf("enter the number of coloumn: ");
+	scanf("%d",&w);
+	int arr[n][w];
+    for (int i=0;i<n;i++) {
+        for (int j=0;j<w;j++) {
+			printf("enter the value for %d row and %d coloumn: ",i+1,j+1);
+			scanf("%d",&arr[i][j]);
+        }
+        printf("\n");
+    }
+	printf("enter the number of rows: ");
+	scanf("%d",&l);
+	printf("enter the number of coloumn: ");
+	scanf("%d",&q);
+	int ar[l][q];
+	for (int i=0;i<l;i++) {
+        for (int j=0;j<q;j++) {
+			printf("enter the value for %d row and %d coloumn: ",i+1,j+1);
+			scanf("%d",&ar[i][j]);
+        }
+	}
+	int arre[l][q];
+	for (int i=0;i<n;i++) {
+        for (int j=0;j<w;j++) {
+			arre[i][j]=ar[i][j]+arr[i][j];
+		}
+	}
+	for (int i=0;i<n;i++) {
+        for (int j=0;j<w;j++) {
+			printf("%d",arre[i][j]);
+		}
+		printf("\n");
+	}
+	return 0;
+}
+	
+				
+			
+		
+		
+//Q74: Find the transpose of a matrix.
+
+/*
+Sample Test Cases:
+Input 1:
+2 3
+1 2 3
+4 5 6
+Output 1:
+1 4
+2 5
+3 6
+
+*/
+#include<stdio.h>
+int main() {
+    int n,w,sum=0,sum2=0,l,q;
+	printf("enter the number of rows: ");
+	scanf("%d",&n);
+	printf("enter the number of coloumn: ");
+	scanf("%d",&w);
+	int arr[n][w];
+    for (int i=0;i<n;i++) {
+        for (int j=0;j<w;j++) {
+			printf("enter the value for %d row and %d coloumn: ",i+1,j+1);
+			scanf("%d",&arr[i][j]);
+        }
+        printf("\n");
+    }
+	printf("enter the number of rows: ");
+	scanf("%d",&l);
+	printf("enter the number of coloumn: ");
+	scanf("%d",&q);
+	int ar[l][q];
+	for (int i=0;i<l;i++) {
+        for (int j=0;j<q;j++) {
+			printf("enter the value for %d row and %d coloumn: ",i+1,j+1);
+			scanf("%d",&ar[i][j]);
+        }
+	}
+	int arre[l][q];
+	for (int i=0;i<n;i++) {
+        for (int j=0;j<w;j++) {
+			arre[i][j]=ar[i][j]+arr[i][j];
+		}
+	}
+	for (int i=0;i<n;i++) {
+        for (int j=0;j<w;j++) {
+			printf("%d",arre[i][j]);
+		}
+		printf("\n");
+	}
+	return 0;
+}
+	
+				
+			
+		
+		
